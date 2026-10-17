@@ -1,1 +1,3 @@
-// place files you want to import through the `#lib` alias in this folder.
+import favicon from './assets/icons/favicon.svg';
+import logo from './assets/icons/logo.svg';
+export { favicon, logo };
