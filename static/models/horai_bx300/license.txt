@@ -1,0 +1,8 @@
+Model Information:
+* title:	PS1 GT1-Style Model - 1996 Horai BX300
+* source:	https://sketchfab.com/3d-models/ps1-gt1-style-model-1996-horai-bx300-6dae04e452c84b4fa5efce32145a25f4
+* author:	Aike (https://sketchfab.com/anathlyst)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
