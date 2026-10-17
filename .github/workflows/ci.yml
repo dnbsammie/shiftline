@@ -55,6 +55,7 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
+      - run: pnpm cf-typegen
       - run: pnpm build
 
       - name: Deploy to Cloudflare Workers
