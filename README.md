@@ -1,54 +1,36 @@
-# sv
+<div align="center">
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# Shiftline
 
-## Creating a project
+<picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="./docs/images/shiftline-dark.png">
+    <source media="(prefers-color-scheme: light)"
+            srcset="./docs/images/shiftline-light.png">
+    <img src="./docs/images/shiftline-light.png"
+        alt="shiftline banners">
+</picture>
 
-If you're seeing this, you've probably already done this step. Congrats!
+</div>
 
-```sh
-# create a new project
-npx sv create my-app
-```
+---
 
-To recreate this project with the same configuration:
+<blockquote style="border-left: 4px solid #00AAFF; padding-left: 10px; color: #ffffff;">
+    A fast-paced, retro-futuristic arcade racing game built for the JetBrains Academy Game Challenge.
+</blockquote>
 
-```sh
-# recreate this project
-pnpm dlx sv@1.1.1 create --template minimal --types ts --add prettier eslint enhanced-img sveltekit-adapter="adapter:cloudflare+cfTarget:workers" ai-tools="ide:other" --install pnpm shiftline
-```
+## Tech Stack
 
-## Adding features
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=github,discord,git,svelte,html,css,ts,githubactions,blender,figma,threejs,md,pnpm,webstorm&theme=dark&perline=7" />
+  </a>
+</p>
 
-Add features to your project with `sv add`:
+- **Framework & UI:** [Svelte](https://svelte.dev/)
+- **3D Graphics Engine:** [Three.js](https://threejs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Audio & Music:** [Strudel](https://strudel.cc/)
+- **IDE & AI Assistance:** [WebStorm](https://www.jetbrains.com/webstorm/) / [AIR](https://www.jetbrains.com/air/).
 
-```sh
-npx sv add
-```
-
-For example, to add Tailwind CSS:
-
-```sh
-npx sv add tailwindcss
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+---
